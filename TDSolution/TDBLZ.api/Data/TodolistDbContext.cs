@@ -8,7 +8,7 @@ namespace TDBLZ.api.Data
 {
     public class TodolistDbContext : IdentityDbContext<User, Role, Guid>
     {
-       public TodolistDbContext(DbContextOptions<TodolistDbContext> options) : base(options)
+        public TodolistDbContext(DbContextOptions<TodolistDbContext> options) : base(options)
         {
 
         }  

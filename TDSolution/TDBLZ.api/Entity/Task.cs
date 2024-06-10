@@ -13,7 +13,7 @@ namespace TDBLZ.api.Entity
         public string  Name { get; set; }
         public Guid? AssigneeID { get; set; }
         [ForeignKey(nameof(AssigneeID))]
-        public User Assignee { get; set; }
+        public User? Assignee { get; set; }
         public DateTime CreatedDate { get; set; }
         public Status Status { get; set; }
 
